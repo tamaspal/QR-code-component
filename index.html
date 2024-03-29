@@ -6,13 +6,67 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/index.css">
-  
+
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 152px auto 0;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+  }
+  
+  .card {
+    max-width: 320px;
+    height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+  }
+  
+  main {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+
+  .qr-img {
+    max-width: 288px;
+    max-height: 288px;
+    margin: 16px auto 24px;
+    border-radius: 10px;
+  }
+  
+  #title {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .lead {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    max-width: 250px;
+    margin: auto auto 0;
+  }
+
+  .attribution { font-size: 11px; text-align: center; margin-top: 40px;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  @media (max-width: 500px) {
+    body {
+      margin: 85px auto 0;
+    }
+}
+  </style>
 </head>
 <body>
 
